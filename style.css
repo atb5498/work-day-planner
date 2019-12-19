@@ -1,5 +1,23 @@
+h1 {
+    font-family: 'Questrial', sans-serif;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+}
+
 h2 {
     text-align: right;
     font-size: 20px;
     padding-top: 8px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.form-control {
+    font-family: 'Questrial', sans-serif;
+}
+
+button {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
 }
