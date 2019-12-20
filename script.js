@@ -1,4 +1,3 @@
-var input1 = $("#input1");
 var saveBtn1 = $(".btn1");
 var input2 = $("#input2");
 var saveBtn2 = $(".btn2");
@@ -17,10 +16,17 @@ var saveBtn8 = $(".btn8");
 var input9 = $("#input9");
 var saveBtn9 = $(".btn9");
 
+function updateTime() {
+    var time = moment().format('MMMM Do YYYY, h:mm:ss a');
+    $("#time").text(time);
+    setInterval(updateTime, 1000);
+}
+
 saveBtn1.on("click", function () {
     event.preventDefault();
-    var inputValue1 = input1.val();
-    localStorage.setItem("inputValue1", JSON.stringify(inputValue1));
+    var input1 = $("#input1").val();
+    localStorage.setItem("input1", JSON.stringify(input1));
+    localStorage.getItem("input1");
 });
 
 saveBtn2.on("click", function () {
@@ -70,3 +76,5 @@ saveBtn9.on("click", function () {
     var inputValue9 = input9.val();
     localStorage.setItem("inputValue9", JSON.stringify(inputValue9));
 });
+
+updateTime();
