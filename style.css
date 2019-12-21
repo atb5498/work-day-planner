@@ -1,9 +1,19 @@
+body {
+    background-color: #FDFDFA;
+}
+
+.jumbotron {
+    background-color: #DADACD;
+}
+
 h1 {
     font-family: 'Questrial', sans-serif;
+    color: #303029;
 }
 
 p {
     font-family: 'Questrial', sans-serif;
+    color: #303029;
 }
 
 h2 {
@@ -11,17 +21,43 @@ h2 {
     font-size: 20px;
     padding-top: 8px;
     font-family: 'Questrial', sans-serif;
-}
-
-.form-control {
-    font-family: 'Questrial', sans-serif;
-}
-
-button {
-    font-family: 'Questrial', sans-serif;
-    letter-spacing: 1px;
+    color: #303029;
 }
 
 #time {
     font-family: 'Questrial', sans-serif;
+    color: #303029;
+}
+
+
+.form-control {
+    font-family: 'Questrial', sans-serif;
+    color: #303029;
+    border: 1px solid #303029;
+}
+
+.btn-outline-secondary {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #303029;
+    color: #303029;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+    border: 1px solid #303029;
+}
+
+#button-addon2:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+#button-addon2:hover {
+    background-color: #DADACD;
+    color: #303029;
+}
+
+#button-addon2:active {
+    background-color: #747464;
+    color: #FDFDFA;
 }
