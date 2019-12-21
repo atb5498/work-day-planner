@@ -34,13 +34,15 @@ h2 {
     font-family: 'Questrial', sans-serif;
     color: #303029;
     border: 1px solid #303029;
+    background-color: #F5E9C0;
 }
 
-.btn-outline-secondary {
+#button-addon2 {
     font-family: 'Questrial', sans-serif;
     letter-spacing: 1px;
     border: 1px solid #303029;
     color: #303029;
+    background-color: #FDFDFA;
 }
 
 .form-control:focus {
