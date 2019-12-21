@@ -33,41 +33,59 @@ $(document).ready(function () {
     var currentTime = moment().format("HH");
 
     //Changes input background color based on the time of day
-    if (am9 < currentTime) {
+    if (am9 === currentTime) {
+        $("#input1").css("background-color", "green")
+    } else if (am9 < currentTime) {
         $("#input1").css("background-color", "red")
-    };
+    }
 
-    if (am10 < currentTime) {
+    if (am10 === currentTime) {
+        $("#input2").css("background-color", "green")
+    } else if (am10 < currentTime) {
         $("#input2").css("background-color", "red")
-    };
+    }
 
-    if (am11 < currentTime) {
+    if (am11 === currentTime) {
+        $("#input3").css("background-color", "green")
+    } else if (am11 < currentTime) {
         $("#input3").css("background-color", "red")
-    };
+    }
 
-    if (pm12 < currentTime) {
+    if (pm12 === currentTime) {
+        $("#input4").css("background-color", "green")
+    } else if (pm12 < currentTime) {
         $("#input4").css("background-color", "red")
-    };
+    }
 
-    if (pm1 < currentTime) {
+    if (pm1 === currentTime) {
+        $("#input5").css("background-color", "green")
+    } else if (pm1 < currentTime) {
         $("#input5").css("background-color", "red")
-    };
+    }
 
-    if (pm2 < currentTime) {
+    if (pm2 === currentTime) {
+        $("#input6").css("background-color", "green")
+    } else if (pm2 < currentTime) {
         $("#input6").css("background-color", "red")
-    };
+    }
 
-    if (pm3 < currentTime) {
+    if (pm3 === currentTime) {
+        $("#input7").css("background-color", "green")
+    } else if (pm3 < currentTime) {
         $("#input7").css("background-color", "red")
-    };
+    }
 
-    if (pm4 < currentTime) {
+    if (pm4 === currentTime) {
+        $("#input8").css("background-color", "green")
+    } else if (pm4 < currentTime) {
         $("#input8").css("background-color", "red")
-    };
+    }
 
-    if (pm5 < currentTime) {
+    if (pm5 === currentTime) {
+        $("#input9").css("background-color", "green")
+    } else if (pm5 < currentTime) {
         $("#input9").css("background-color", "red")
-    };
+    }
 
     //Displays live date and time
     function updateTime() {
