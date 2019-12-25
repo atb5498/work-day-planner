@@ -34,57 +34,57 @@ $(document).ready(function () {
 
     //Changes input background color based on the time of day
     if (am9 === currentTime) {
-        $("#input1").css("background-color", "#93AEC1")
+        $("#input1").css("background-color", "#9CB5C6")
     } else if (am9 < currentTime) {
-        $("#input1").css("background-color", "#CAA7A5")
+        $("#input1").css("background-color", "#CEAFAD")
     }
 
     if (am10 === currentTime) {
-        $("#input2").css("background-color", "#93AEC1")
+        $("#input2").css("background-color", "#9CB5C6")
     } else if (am10 < currentTime) {
-        $("#input2").css("background-color", "#CAA7A5")
+        $("#input2").css("background-color", "#CEAFAD")
     }
 
     if (am11 === currentTime) {
-        $("#input3").css("background-color", "#93AEC1")
+        $("#input3").css("background-color", "#9CB5C6")
     } else if (am11 < currentTime) {
-        $("#input3").css("background-color", "#CAA7A5")
+        $("#input3").css("background-color", "#CEAFAD")
     }
 
     if (pm12 === currentTime) {
-        $("#input4").css("background-color", "#93AEC1")
+        $("#input4").css("background-color", "#9CB5C6")
     } else if (pm12 < currentTime) {
-        $("#input4").css("background-color", "#CAA7A5")
+        $("#input4").css("background-color", "#CEAFAD")
     }
 
     if (pm1 === currentTime) {
-        $("#input5").css("background-color", "#93AEC1")
+        $("#input5").css("background-color", "#9CB5C6")
     } else if (pm1 < currentTime) {
-        $("#input5").css("background-color", "#CAA7A5")
+        $("#input5").css("background-color", "#CEAFAD")
     }
 
     if (pm2 === currentTime) {
-        $("#input6").css("background-color", "#93AEC1")
+        $("#input6").css("background-color", "#9CB5C6")
     } else if (pm2 < currentTime) {
-        $("#input6").css("background-color", "#CAA7A5")
+        $("#input6").css("background-color", "#CEAFAD")
     }
 
     if (pm3 === currentTime) {
-        $("#input7").css("background-color", "#93AEC1")
+        $("#input7").css("background-color", "#9CB5C6")
     } else if (pm3 < currentTime) {
-        $("#input7").css("background-color", "#CAA7A5")
+        $("#input7").css("background-color", "#CEAFAD")
     }
 
     if (pm4 === currentTime) {
-        $("#input8").css("background-color", "#93AEC1")
+        $("#input8").css("background-color", "#9CB5C6")
     } else if (pm4 < currentTime) {
-        $("#input8").css("background-color", "#CAA7A5")
+        $("#input8").css("background-color", "#CEAFAD")
     }
 
     if (pm5 === currentTime) {
-        $("#input9").css("background-color", "#93AEC1")
+        $("#input9").css("background-color", "#9CB5C6")
     } else if (pm5 < currentTime) {
-        $("#input9").css("background-color", "#CAA7A5")
+        $("#input9").css("background-color", "#CEAFAD")
     }
 
     //Displays live date and time

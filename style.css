@@ -34,7 +34,7 @@ h2 {
     font-family: 'Questrial', sans-serif;
     color: #303029;
     border: 1px solid #303029;
-    background-color: #F5E9C0;
+    background-color: #F5EBC5;
 }
 
 #button-addon2 {
@@ -42,7 +42,7 @@ h2 {
     letter-spacing: 1px;
     border: 1px solid #303029;
     color: #303029;
-    background-color: #FDFDFA;
+    background-color: white;
 }
 
 .form-control:focus {
