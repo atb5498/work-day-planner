@@ -107,43 +107,43 @@ $(document).ready(function () {
         localStorage.setItem("input2", JSON.stringify(input2));
     });
 
-    $(".btn3").on("click", function () {
+    $(".btn3").on("click", function (event) {
         event.preventDefault();
         var input3 = $("#input3").val();
         localStorage.setItem("input3", JSON.stringify(input3));
     });
 
-    $(".btn4").on("click", function () {
+    $(".btn4").on("click", function (event) {
         event.preventDefault();
         var input4 = $("#input4").val();
         localStorage.setItem("input4", JSON.stringify(input4));
     });
 
-    $(".btn5").on("click", function () {
+    $(".btn5").on("click", function (event) {
         event.preventDefault();
         var input5 = $("#input5").val();
         localStorage.setItem("input5", JSON.stringify(input5));
     });
 
-    $(".btn6").on("click", function () {
+    $(".btn6").on("click", function (event) {
         event.preventDefault();
         var input6 = $("#input6").val();
         localStorage.setItem("input6", JSON.stringify(input6));
     });
 
-    $(".btn7").on("click", function () {
+    $(".btn7").on("click", function (event) {
         event.preventDefault();
         var input7 = $("#input7").val();
         localStorage.setItem("input7", JSON.stringify(input7));
     });
 
-    $(".btn8").on("click", function () {
+    $(".btn8").on("click", function (event) {
         event.preventDefault();
         var input8 = $("#input8").val();
         localStorage.setItem("input8", JSON.stringify(input8));
     });
 
-    $(".btn9").on("click", function () {
+    $(".btn9").on("click", function (event) {
         event.preventDefault();
         var input9 = $("#input9").val();
         localStorage.setItem("input9", JSON.stringify(input9));

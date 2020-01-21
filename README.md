@@ -4,10 +4,10 @@ This project is intended to produce a simple calendar app that allows the user t
 
 # Getting Started
 
-1. Place text into your desired input field
+1. Place text into desired input field
 2. Click the save button on the right-hand side
-3. All text will remain stored and visible
-4. To clear the field, delete the text and click save
+3. All text is stored in the browser and will remain visible in the input field
+4. Delete the text and click save to clear the field
 
 # Built With
 
